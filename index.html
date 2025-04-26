@@ -15,7 +15,9 @@
     <header>
         <a class="logo" href="/"> HelloFresh. </a>
         <div class="header-right">
-            <input type="text" placeholder="Search..." />
+            <input type="search" placeholder="Search..." id="search-recipe" />
+            <button onclick="searchRecipe()">Search</button>
+            <div class="recipes-links" id="recipes-links-wrapper"></div>
             <a href="./all.html">All</a>
         </div>
     </header>
@@ -48,12 +50,7 @@
 
     <section class="recipes-1">
         <h3>Trending Now</h3>
-        <div class="recipes-wrapper">
-            <a href="/" class="recipe-card">
-                <img src="https://cdn.dummyjson.com/recipe-images/1.webp" alt="" />
-                <p>Classic Margherita Pizza</p>
-            </a>
-        </div>
+        <div class="recipes-wrapper" id="reicepes"></div>
     </section>
 
     <script src="script.js"></script>

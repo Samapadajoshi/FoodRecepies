@@ -33,6 +33,7 @@ header {
     left: 0;
     width: 100%;
     backdrop-filter: blur(2rem);
+    z-index: 99999;
 }
 
 header a {
@@ -53,10 +54,22 @@ header a:hover {
     display: flex;
     gap: 2rem;
     align-items: center;
+    position: relative;
 }
 
 header input {
     padding: 0.3rem 0.5rem;
+}
+
+.recipes-links {
+    position: absolute;
+    top: 9vh;
+    /* bottom: -36px; */
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: blueviolet;
+    width: 31vw;
 }
 
 /* main section start */

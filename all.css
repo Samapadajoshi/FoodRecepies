@@ -1,0 +1,13 @@
+main {
+    background-image: url("https://thumbs.dreamstime.com/b/healthy-vegetarian-cooking-ingredients-tasty-pumpkin-dishes-recipes-bowls-tomato-sauces-spinach-sliced-onion-pumpkin-seeds-103694189.jpg");
+    /* background-size: cover; */
+}
+
+.recipes-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+}
+
+.recipes-wrapper .recipe-card {
+    width: 100%;
+}
